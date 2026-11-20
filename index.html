@@ -17,7 +17,7 @@
     />
   </head>
   <body class="bg-[#F8F8F8]">
-    <header class="bg-white w-full h-full py-6">
+    <header class="bg-white w-full h-full py-6 ">
       <div class="flex justify-between items-center mx-[20px] lg:mx-[120px]">
         <nav class="flex gap-x-[100px] items-center">
           <h1 class="varela text-2xl lg:text-[28px]">Toy Store</h1>
@@ -153,6 +153,9 @@
                   />
                 </svg>
               </a>
+            </li>
+            <li class="addToCart">
+              <a href="#" class="addCart">0</a>
             </li>
           </ul>
         </div>
@@ -548,7 +551,7 @@
 <!-- Модальное окно -->
 <div class="modal fixed inset-0 bg-black/50 items-center justify-center hidden z-50">
   <div class="bg-white rounded-lg p-6 w-80 relative">
-    <button class="modal-close absolute top-2 right-2 text-gray-500 hover:text-gray-700">&times;</button>
+    <button class="modal-close absolute top-2 right-2 text-gray-500 hover:text-gray-700 cursor-pointer">&times;</button>
     <h2 class="text-xl font-bold mb-2">Товар добавлен в корзину!</h2>
     <p class="text-gray-600">Спасибо за покупку. Продолжайте просматривать наш магазин.</p>
   </div>

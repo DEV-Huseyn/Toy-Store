@@ -56,3 +56,13 @@ profileBtnQuit.addEventListener('click', (e) =>{
   profileModal.classList.remove('flex');
   profileModal.classList.add('hidden');
 });
+
+
+let cart = document.querySelector('.addCart')
+let cartBtn = document.querySelector('.addToCart')
+let count = 0;
+
+cartBtn.addEventListener('click', () => {
+  count++;
+  cart.textContent = count;
+});
